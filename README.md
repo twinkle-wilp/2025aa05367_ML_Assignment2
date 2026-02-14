@@ -21,9 +21,9 @@ The dataset used is the Heart Disease Dataset (UCI Combined Version) obtained fr
 
 ## Model-wise Observations
 
-|| ML Model Name | Observation about model performance |
-|--------------|-------------------------------------|
-| Logistic Regression | Logistic Regression achieved strong recall (0.9143) and a high AUC (0.9298), indicating good ability to correctly identify heart disease cases. However, its overall accuracy (0.8098) and MCC (0.6309) are lower compared to tree-based and ensemble models, suggesting limited ability to capture complex non-linear patterns. |
+| ML Model Name | Observation about model performance |
+|---------------|--------------------------------------|
+| Logistic Regression | Logistic Regression achieved strong recall (0.9143) and high AUC (0.9298), indicating good ability to correctly identify heart disease cases. However, its overall accuracy (0.8098) and MCC (0.6309) are lower compared to tree-based and ensemble models, suggesting limited ability to capture complex non-linear patterns. |
 | Decision Tree | Decision Tree achieved extremely high performance across all metrics, including accuracy (0.9854) and MCC (0.9712). While this indicates strong predictive capability, such near-perfect performance may suggest overfitting, as single decision trees are prone to memorizing training patterns. |
 | KNN | KNN showed balanced and stable performance with good AUC (0.9629) and moderate MCC (0.7269). Its results demonstrate that distance-based methods can perform well after proper feature scaling, though performance remains lower than ensemble methods. |
 | Naive Bayes | Naive Bayes achieved reasonable performance with accuracy (0.8293) and AUC (0.9043). However, its assumption of feature independence likely limited its predictive strength compared to more flexible models like Decision Trees and ensembles. |
